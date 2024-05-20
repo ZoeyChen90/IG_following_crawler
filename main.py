@@ -76,7 +76,7 @@ except (FileNotFoundError, pickle.UnpicklingError):
         print("登入失敗或需要進一步操作，無法保存 cookie。")
 
 
-# 2. 登入成功，前往目標頁面
+# 2. 前往目標頁面
 
 if 'instagram.com/accounts/login/' not in driver.current_url:
     target_url = 'https://www.instagram.com/group_buy_note/'  # 替換成目標頁面
