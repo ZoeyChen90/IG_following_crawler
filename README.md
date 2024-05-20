@@ -1,4 +1,4 @@
-# IG_following_crawler
+# 使用 selenium 獲取 IG 追蹤者名單
 
 替換內容：
 1. 目標網頁，獲取單一帳號的追蹤者名單
